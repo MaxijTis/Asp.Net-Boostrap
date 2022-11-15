@@ -17,11 +17,10 @@ namespace dominio
         public bool Importado { get; set; }
     }
 
-
-    public class AutoNegocio 
-    { 
-        public List <Auto> listar() 
-        { 
+    public class AutoNegocio
+    {
+        public List<Auto> listar()
+        {
             List<Auto> lista = new List<Auto>();
             lista.Add(new Auto());
             lista.Add(new Auto());
@@ -44,6 +43,6 @@ namespace dominio
 
             return lista;
         }
-
     }
+
 }
